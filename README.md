@@ -8,13 +8,13 @@ This Python program helps to count and divide the segments of various IP address
 ## Screenshot
 ![Game Running](https://github.com/DiogoPoletti/IP-Segment-Counter/blob/main/Documentation/IPSegmentAndCharCounter.gif)
 
-## What have I learnt
+## What have I learned
 Creating this game enabled me to practice a few aspects:
-* Implement Python program in order to improve effectiveness when studying.
+* Implement Python program to improve effectiveness when studying.
 * Get familiar with conditions and loops.
 
 ## Code highlight
-This block of code was able to print the segment's counting and char counting even when there is no *.* at in the end of the IP address, which is usually the format an IP address is written.
+This block of code was able to print the segment's counting and char counting even when there is no *.* at the end of the IP address, which is usually the format in which an IP address is written.
 ```
 if character != '.':
     print("Segment {} has {} characters.".format(segmentCount, segmentCharacters))
